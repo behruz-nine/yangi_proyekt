@@ -130,3 +130,8 @@ MAILERS = {
         'BACKEND': 'django.core.mail.backends.console.EmailBackend',
     },
 }
+
+EMAIL_TIME = 3
+PHONE_TIME = 2
+
+AUTH_USER_MODEL = 'account.CustomUser'
